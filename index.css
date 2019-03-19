@@ -9,7 +9,7 @@ h3, h4 {
     color: #111;
 }
 .container {
-    padding: 80px 120px;
+    padding: 10px 120px;
 }
 .person {
     border: 10px solid transparent;
@@ -40,14 +40,7 @@ h3, h4 {
 }
 .bg-1 h3 {color: #fff;}
 .bg-1 p {font-style: italic;}
-.list-group-item:first-child {
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-}
-.list-group-item:last-child {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
+
 .thumbnail {
     padding: 0px 0px 15px 0px;
     border: none;
@@ -59,15 +52,20 @@ h3, h4 {
 }
 .btn {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #727272;
     color: #f1f1f1;
     border-radius: 0;
     transition: .2s;
 }
-.btn:hover, .btn:focus {
+.btn:hover {
     border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
+}
+.btn:visited {
+    border: 1px solid #333;
+    background-color: #000;
+    color: #fff;
 }
 .modal-header, h4, .close {
     background-color: #333;
@@ -83,7 +81,6 @@ h3, h4 {
 }
 
 .navbar {
-    font-family: Montserrat, sans-serif;
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
@@ -110,9 +107,6 @@ h3, h4 {
 }
 .dropdown-menu li a {
     color: #000 ;
-}
-.dropdown-menu li a:hover {
-    background-color: red ;
 }
 footer {
     background-color: #2d2d30;
